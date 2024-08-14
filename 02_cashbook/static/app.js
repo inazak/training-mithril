@@ -56,7 +56,7 @@ class PropertyCashbook {
 			this.result = result
 		})
 		.catch((e) => {
-			this.result = `${e.code} ${e.message}`
+			this.result = e.response
 		})
 	}
 }
