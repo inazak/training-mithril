@@ -40,7 +40,7 @@ type cashbookEntry struct {
 }
 
 type cashbookEntries struct {
-	Entries []cashbookEntry `json:"entries" validate:reqired,dive,required`
+	Entries []cashbookEntry `json:"entries" validate:"required,dive"`
 }
 
 type errMessage struct {
