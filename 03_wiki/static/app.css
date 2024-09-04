@@ -1,0 +1,8 @@
+body > main > article > header {
+	display: flex;
+	justify-content: space-between;
+}
+body > main > article > header > span {
+	font-size: 25px;
+	font-style: bold;
+}
